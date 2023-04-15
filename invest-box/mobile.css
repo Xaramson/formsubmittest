@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Poppins:wght@300&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal {
+    display: flex;
+    column-gap: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.line {
+    display: none;
+}
+
+.circles {
+    display: none;
+}
+
+.how-img-box {
+    display: none;
+}
+
+.ht-img-box {
+    display: none;
+}
+
+.inv-img {
+    display: none;
+}
+
+.circle-one {
+    display: none;
+}
+
+.circle-two {
+    display: none;
+}
+
+.how-circle {
+    display: none;
+}
+
+.hc-one {
+    display: none;
+}
+
+.hc-two {
+    display: none;
+}
+
+.hw-img {
+    display: none;
+}
+
+.logo {
+    font-size: 36px;
+}
+
+.sign-get {
+    display: flex;
+    column-gap: 10px;
+}
+
+.sign-in button {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    width: 100px;
+    padding: 10px;
+}
+
+.get-started button {
+    background-color: #80004d;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+    color: white;
+}
+
+.main-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.header {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header div{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    height: 20px;
+}
+
+.purple {
+    color: #80004d;
+}
+
+.hero-par {
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    color: #263238;
+}
+
+.email-sub {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: 3px 5px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 7px;
+}
+
+.email-sub input {
+    color: black;
+    border: none;
+    background-color: rgb(206, 206, 206);
+    padding: 0px 8px;
+}
+
+.email-sub input:focus {
+    outline: none;
+}
+
+.email-sub button {
+    height: 40px;
+    background: #80004D;
+    color: #FFFFFF;
+    ;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.h-head {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.hh-one {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+.h-head p {
+    margin: 5px 0px;
+}
+
+.step-create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80004D;
+    border-radius: 20px;
+    color: #fafafa;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.step-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80004D;
+    border-radius: 20px;
+    color: #fafafa;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.step-invest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80004D;
+    border-radius: 20px;
+    color: #fafafa;
+    padding: 10px;
+    gap: 10px;
+}
+
+.crt-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fafafa;
+    text-align: center;
+}
+
+.crt-icon i {
+    display: flex;
+    color: #80004D;
+}
+
+
+
+.crt-act {
+    text-align: left;
+}
+
+.crt-act h5 {
+    margin: 5px;
+}
+
+.crt-act p{
+    margin: 0px;
+}
+
+.link-bnk {
+    text-align: left;
+}
+
+.link-bnk h5 {
+    margin: 5px;
+}
+
+.link-bnk p{
+    margin: 0px;
+}
+
+.str-inv {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.str-inv h5 {
+    margin: 5px;
+}
+
+.str-inv p{
+    margin: 0px;
+}
+
+.ht-par h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.ht-par p {
+    margin: 3px;
+}
+
+.in {
+    display: flex;
+}
+
+.ht-par .sm-par {
+    margin: 0px 0px 15px 0px;
+}
+
+.ht-optone {
+    background: rgba(0, 128, 0, 0.05);
+    padding: 5px 19px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.ht-opttwo {
+    background: rgba(0, 128, 0, 0.05);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.inv-exp h3 {
+    font-size: 30px;
+}
+
+.inv-exp p {
+    margin: 3px;
+}
+
+.inv-exp h5 {
+    font-size: 18px;
+}
+
+.be {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+.inv-exp .ex-p {
+    margin-bottom: 15px;
+}
+
+.get-started div {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    gap: 5px;
+}
+
+.get-started div p {
+    margin-bottom: 0px;
+}
+
+.get-st {
+    color: #7E7E7E;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.lim-slots {
+    display: flex;
+    justify-content: center;
+    background-color: #0080000D;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.lim-header {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.lim-top {
+    display: flex;
+    gap: 5px;
+}
+
+.lim-bot {
+    display: flex;
+    gap: 5px;
+}
+
+.purp {
+    color: #80004D;
+}
+
+.lim-header p {
+    margin: 10px 0px 10px 0px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #80004D;
+    color: #fafafa;
+    padding: 20px;
+}
+
+.footer-item {
+    flex-basis: 45%;
+    text-align: left;
+    margin: 10px;
+}
+
+.footer-item p {
+    margin: 0;
+}
+
+.fi-lg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fi-lg p {
+    margin: 0;
+}
+
+.subs {
+    display: flex;
+    justify-content: space-between;
+    background: #fafafa;
+    padding: 3px;
+    border-radius: 10px;
+    flex-basis: 60%;
+
+}
+
+.subs input {
+    background-color: #fafafa;
+    border: none;
+}
+
+.subs input:focus {
+    outline: none;
+}
+
+.subs button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #80004D;
+    color: #fafafa;
+    border: none;
+}
+
+.fol-call {
+    display: flex;
+    gap: 50px;
+}
+
+.f-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.aptsl {
+    display: flex;
+}
+
+.aptsl p {
+    margin: 0;
+    flex-basis: 10%;
+    gap: 10px;
+}
+
+.aptsl div {
+    display: flex;
+    gap: 10px;
+}
